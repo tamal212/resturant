@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*   font-family: "Work Sans", sans-serif; */
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+ #tittle{
+width: 100%;
+height:30px;
+color: rgba(16, 16, 16, 1);
+font-size: 20px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+ #tittle p{
+  margin: 4px;
+  font-size: 15px;
+ }
+#mother{
+  margin-top:170px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.child{
+  margin: 2px 4px;
+  padding: 5px;
+  position:relative;
+}
+.child img{
+  width: 250px;
+  height:250px ;
+  border-radius: 10px;
+} 
+.child .bottom{
+  width: 250px;
+  height:250px ;
+   text-align: center
+}
+
+.child .bottom button{
+   display:inline-block;
+ background-color:#C4E538;
+ padding: 3px 5px;
+ border-radius: 5px;
+ border: none;
+ font-size: 15px;
+ font-family: "Work Sans", sans-serif; 
+}
+a{
+  text-decoration: none;
+}
+.child .bottom button:hover{
+  background-color: #A3CB38;
+  color: #fff;
+}
+ .child .bottom p{
+  text-align: left;
+ } 
